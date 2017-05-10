@@ -1,0 +1,94 @@
+[ {
+  "@id" : "_:genid828808697",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://aislab.hevs.ch/#this",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Group" ],
+  "http://xmlns.com/foaf/0.1/member" : [ {
+    "@id" : "http://w3id.org/people/jpcik/me"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Applied Intelligent Systems Lab (AISLAB)"
+  } ]
+}, {
+  "@id" : "http://w3id.org/people/jpcik/me",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Person" ],
+  "http://xmlns.com/foaf/0.1/based_near" : [ {
+    "@id" : "http://dbpedia.org/resource/Lausanne"
+  } ],
+  "http://xmlns.com/foaf/0.1/family_name" : [ {
+    "@value" : "Calbimonte"
+  } ],
+  "http://xmlns.com/foaf/0.1/givenname" : [ {
+    "@value" : "Jean-Paul"
+  } ],
+  "http://xmlns.com/foaf/0.1/holdsAccount" : [ {
+    "@id" : "https://twitter.com/jpcik"
+  } ],
+  "http://xmlns.com/foaf/0.1/homepage" : [ {
+    "@id" : "http://jeanpi.org"
+  } ],
+  "http://xmlns.com/foaf/0.1/img" : [ {
+    "@id" : "https://fr.gravatar.com/jpcik#"
+  } ],
+  "http://xmlns.com/foaf/0.1/mbox" : [ {
+    "@id" : "mailto:jpcik@outlook.com"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Jean-Paul Calbimonte"
+  } ],
+  "http://xmlns.com/foaf/0.1/nick" : [ {
+    "@value" : "jpcik"
+  } ],
+  "http://xmlns.com/foaf/0.1/schoolHomepage" : [ {
+    "@id" : "http://www.hes-so.ch"
+  }, {
+    "@id" : "http://www.hevs.ch"
+  } ],
+  "http://xmlns.com/foaf/0.1/workplaceHomepage" : [ {
+    "@id" : "http://aislab.hevs.ch"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/based_near",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/family_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/givenname",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/holdsAccount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/img",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/mbox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/member",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/nick",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/schoolHomepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/workplaceHomepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
